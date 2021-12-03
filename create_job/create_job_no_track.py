@@ -1,5 +1,4 @@
 #此为无音轨编辑的任务
-#当前Transcoder API的python库并不完善，无法对音轨进行定制化输出
 import json
 
 from google.cloud.video import transcoder_v1
@@ -105,14 +104,14 @@ from queue import Queue
 
 q = Queue(maxsize=0)
 
-project_id='jianquan-test'
-location='asia-east1'
+project_id='project-id'
+location='location'
 
 if __name__ == '__main__':
 
-    input_uri='gs://test-bucket-input/44_1_001.mkv'   
-    srt_uri='gs://test-bucket-input/test44.srt'    
-    output_uri='gs://test-bucket-outputfile/test-output44/'                                    
+    input_uri='gs://bucket-name/object-name'   
+    srt_uri='gs://bucket-name/subtitle-name'    
+    output_uri='gs://bucket-name/folder-name/'                                    
 
     print(input_uri)
     print(output_uri)
