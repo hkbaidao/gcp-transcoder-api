@@ -3,4 +3,5 @@
 
 在cloud functions中设置环境变量：
 
-![111](https://user-images.githubusercontent.com/51317683/141056407-ab78c155-5a7f-4164-a3a9-e614e0470f8f.png)
+![141056407-ab78c155-5a7f-4164-a3a9-e614e0470f8f](https://user-images.githubusercontent.com/51317683/144533960-41ecdb0a-ae77-48e5-a066-f5aa4b21a48f.png)
+
