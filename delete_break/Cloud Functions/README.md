@@ -5,6 +5,6 @@
 
 functions配置如下：
 
-![1](https://user-images.githubusercontent.com/51317683/141057622-22414d9c-163c-42c1-a4a6-d67ab8697ccc.png)
+![141057622-22414d9c-163c-42c1-a4a6-d67ab8697ccc](https://user-images.githubusercontent.com/51317683/144533540-783d6740-e172-4478-a42b-8c3468041f30.png)
 ![2](https://user-images.githubusercontent.com/51317683/141057642-497adae6-2002-4274-9e17-a65907cf68bc.png)
 ![3](https://user-images.githubusercontent.com/51317683/141057649-7da2de3c-bec5-4719-acd1-8c6ca9bfdf7d.png)
