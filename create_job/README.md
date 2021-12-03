@@ -26,12 +26,12 @@ output_uri = 'gs://${output-bucket-name}/${folder-name}/'          //记得在�
 查看job状态：
 curl -X GET \
 -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
-https://transcoder.googleapis.com/v1/projects/126254666108/locations/asia-east1/jobs/${job-id}
+https://transcoder.googleapis.com/v1/projects/project-number/locations/asia-east1/jobs/${job-id}
 
 删除job：
 curl -X DELETE \
 -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
-"https://transcoder.googleapis.com/v1/projects/126254666108/locations/asia-east1/jobs/${job-id}"
+"https://transcoder.googleapis.com/v1/projects/project-number/locations/asia-east1/jobs/${job-id}"
 
 output bucket的情况（在输出桶里你能够看到vtt格式的字幕以及ts格式、m3u8格式的视频文件）：
 ![12341241](https://user-images.githubusercontent.com/51317683/141058884-50cb1b92-63c0-4015-9003-4ffda906b5ae.png)
