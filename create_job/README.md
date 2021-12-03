@@ -21,7 +21,7 @@ output_uri = 'gs://${output-bucket-name}/${folder-name}/'          //记得在�
 
 结果如下：
 
-![test](https://user-images.githubusercontent.com/51317683/141058654-194ad48d-53f1-4f62-96ba-0b3fafd9d4b4.png)
+![141058654-194ad48d-53f1-4f62-96ba-0b3fafd9d4b4](https://user-images.githubusercontent.com/51317683/144533840-3b09bdf0-653e-40bd-9c48-24b5455922a6.png)
 
 查看job状态：
 curl -X GET \
